@@ -17,3 +17,20 @@ function validateForm() {
     alert("le nom : "+nom +" , le prenom : "+ prenom+" , l'email : "+email+
     ", la ville  : "+choix +" ,acceptation cgv : "+box)
   }
+
+
+
+
+  var changeImg = (x) => {
+      if (x === 1 ){
+          //test
+          document.getElementById('1').src = "../assets/image2.jfif";
+          for (let i =0; i <document.getElementsByClassName("images").length;i++) {
+            nom = document.getElementById([i]);
+            document.getElementById([i]).src = "../assets/"+nom;
+            
+          }
+      }
+      
+      console.log(nom)
+  }
