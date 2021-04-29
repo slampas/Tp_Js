@@ -1,0 +1,15 @@
+header h1 {
+    text-align: center;
+    background-color: darkslategrey;
+    color: red;
+}
+
+body {
+    background-color:aquamarine;
+}
+
+nav li {
+    width: 30%;
+    text-align: left;
+    background-color:grey;
+}
