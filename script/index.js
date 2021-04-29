@@ -21,16 +21,16 @@ function validateForm() {
 
 
 
-  var changeImg = (x) => {
-      if (x === 1 ){
-          //test
-          document.getElementById('1').src = "../assets/image2.jfif";
-          for (let i =0; i <document.getElementsByClassName("images").length;i++) {
-            nom = document.getElementById([i]);
-            document.getElementById([i]).src = "../assets/"+nom;
+  var changeImg = () => {
+
+
+            let imgTemp = document.getElementById("pic2").src;
+            document.getElementById("pic2").src = document.getElementById("pic1").src;
+            let imgTemp2 = document.getElementById("pic3").src;
+            document.getElementById("pic3").src = imgTemp;
+            let imgTemp3 = document.getElementById("pic4").src;
+            document.getElementById("pic4").src = imgTemp2;
+            document.getElementById("pic1").src = imgTemp3;
             
           }
-      }
       
-      console.log(nom)
-  }
