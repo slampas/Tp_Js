@@ -1,15 +1,51 @@
+body{
+    background-color: #666666;
+}
+header {
+    color: aliceblue;
+    background-color:black;
+}
+a {
+    text-decoration: none;
+}
 header h1 {
     text-align: center;
-    background-color: darkslategrey;
-    color: red;
 }
 
-body {
-    background-color:aquamarine;
+  
+header nav ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background:grey;
 }
 
-nav li {
-    width: 30%;
-    text-align: left;
-    background-color:grey;
+header nav ul li {
+      display: flex;
+      width: 25%;
+      align-items: center;
+      justify-content: space-around;
+      font-size: 1.2em;
+    
+      
+}
+
+header nav ul li a img {
+    width: 100%;
+    
+
+}
+
+header nav ul li a img {
+    width: 100%;
+    display: block;
+    padding:20px 20px 20px 20px;
+    background-color: grey;
+
+}
+header nav ul li:hover {
+    background: #666666;
+    color: white;
 }
