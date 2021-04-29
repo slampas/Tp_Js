@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/index.css">
+    <link rel="stylesheet" href="../style/inscription.css">
+    <script src="../script/index.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -17,12 +19,79 @@
                 <li><a href="http://127.0.0.1:5501/Tp_Js/pages/inscription.html">Inscription</a> </li>
                 <li><a href="http://127.0.0.1:5501/Tp_Js/pages/images.html">images</a></li>
                 <li><a href="http://127.0.0.1:5501/Tp_Js/pages/calculatrice.html">Calculatrice</a></li>
-                <li><a href="http://127.0.0.1:5501/Tp_Js/pages/jeux.html">Jeux</a></li>
+                
 
             </ul>
         </nav>
     
     </header>
+
+
+
+
+
+
+    <section id="form">
+
+        <div>
+            <form name="monForm" action="#" onsubmit="valideralerte()">
+                <div>
+                    <h4>Inscription</h4>
+                </div>
+                <div>
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name" placeholder="Nom">
+                </div>
+                <div>
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" name="prenom" placeholder="Prenom">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Email">
+                </div>
+    
+    
+                <div>
+                <label for="villes-select">Choisir une Ville : </label>
+    
+                <select name="choix" id="choix">
+                    <option value="">--Entrez un choix --</option>
+                    <option value="lille">Lille</option>
+                    <option value="paris">Paris</option>
+                    <option value="maison">Lyon</option>
+                    <option value="bordeau">Bordeau</option>
+                    <option value="toulouse">Toulouse</option>
+                    
+                </select>
+                </div>
+
+                <div>
+                    <label for="cgv-check">j'ai lu les règles </label> 
+                    
+                    <div>
+                        <label for="oui">oui</label> 
+                        <input type="checkbox" id="oui" name="checkbox" checked>
+                        <label for="NON">Non</label> 
+                        <input type="checkbox" id="non" name="checkbox" >
+                    </div>
+
+                        
+                </div>
+    
+                <div>
+                    <button type="submit" >Valider</button>
+                </div>
+    
+            </form>
+        </div>
+
+
+        </section>
+
+
+
+
     
 </body>
 </html>

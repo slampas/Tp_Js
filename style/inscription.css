@@ -1,0 +1,89 @@
+
+
+  #form  {
+    padding: 50px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:nowrap;
+  }
+
+
+
+  #form div div {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 30px 0;
+    padding-left: 50px;
+
+  }
+
+
+
+  #form div div input {
+    width: 80%;
+    height: 60px;
+    line-height: 50px;
+    border-radius: 20px;
+    font-size: 1.3em;
+  }
+  #form div div input::placeholder {
+    padding-left: 10px;
+  }
+
+  #form div div button {
+
+    background-color: #2980b9;
+    width: 40%;
+    height: 50px;
+    color: #ecf0f1;
+    font-size: 1.3em;
+  }
+
+  #form div div label {
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    min-width: 150px;
+    font-size: 1rem;
+    padding-right: 10px;
+  }
+
+  #form div div select {
+      padding-top: 20px;
+    font-size: 1.6rem;
+    padding: 2px 5px;
+  }
+
+  #form div div label {
+    font-size: 1.6rem;
+    padding: 2px 5px;
+  }
+
+
+  #choix{
+    padding-bottom: 20px;
+    padding-left: 20px;
+    min-width: 150px;
+  }
+
+
+  
+  #form div div h4 {
+    padding-left: 50%;
+    text-align: center;
+    font-size: large;
+    color: aquamarine;
+}
+
+#form div div div {
+    
+    padding-left: 10%;
+    text-align: center;
+    font-size: large;
+    color: aquamarine;
+}
